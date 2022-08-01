@@ -13,10 +13,10 @@ def counter(s):
     
     if all(c=='0' for c in s):
         x = 1
-        return str(x).zfill(len(s))
     else:
         x = int(nl2) + 1
-        return str(x).zfill(len(s))
+    
+    return str(x).zfill(len(s))
     
 
 print(counter('001'))   #002
