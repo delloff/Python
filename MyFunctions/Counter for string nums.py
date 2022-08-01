@@ -16,6 +16,13 @@ def counter(s):
         x = int(li1) + 1
     
     return str(x).zfill(len(s))
-    
+
+
+
+#--------------------------------------------------------
+ #oneliner
+
+def counter(s):
+    return '' if not s else str(int(s) + 1).zfill(len(s))
 
 print(counter('001'))   #002
