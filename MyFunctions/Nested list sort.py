@@ -9,4 +9,4 @@ def nested_list_sort(arr):
                 arr[j + 1] = tempo
     return arr
 
-print(flatten_and_sort([[3, 9, 16, 32], [7, 9, 85], [6, 4, 9]]))  #[[6, 4, 9], [3, 9, 16, 32], [7, 9, 85]]
+print(nested_list_sort([[3, 9, 16, 32], [7, 9, 85], [6, 4, 9]]))  #[[6, 4, 9], [3, 9, 16, 32], [7, 9, 85]]
