@@ -10,4 +10,4 @@ def flatten_and_sort(arr):
     return arr
 
 
-print(flatten_and_sort([[3, 9, 16], [7, 9, 85], [6, 4, 9]]))  #[1, 2, 3, 4, 5, 6, 7, 8, 9]
+print(flatten_and_sort([[3, 9, 16], [7, 9, 85], [6, 4, 9]]))  #[[6, 4, 9], [3, 9, 16], [7, 9, 85]]
