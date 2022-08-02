@@ -1,3 +1,5 @@
+#Bubble sort
+
 def flatten_and_sort(arr):
     for sublist in arr:
         for i in range(len(sublist)-1):
