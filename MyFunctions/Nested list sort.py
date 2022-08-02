@@ -1,13 +1,12 @@
 #Bubble sort
 
-def flatten_and_sort(arr):
-    for sublist in arr:
-        for i in range(len(sublist)-1):
-            if (arr[i][2] > arr[i + 1][2]):
-                temp = arr[i]
-                arr[i] = arr[i + 1]
-                arr[i + 1]= temp
+def nested_list_sort(arr):
+    for i in range(len(arr)):
+        for j in range(0, len(arr)-i-1):
+            if (arr[j][1] > arr[j + 1][1]):
+                tempo = arr[j]
+                arr[j] = arr[j + 1]
+                arr[j + 1] = tempo
     return arr
 
-
-print(flatten_and_sort([[3, 9, 16], [7, 9, 85], [6, 4, 9]]))  #[[6, 4, 9], [3, 9, 16], [7, 9, 85]]
+print(flatten_and_sort([[3, 9, 16, 32], [7, 9, 85], [6, 4, 9]]))  #[[6, 4, 9], [3, 9, 16, 32], [7, 9, 85]]
