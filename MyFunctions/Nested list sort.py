@@ -10,3 +10,12 @@ def nested_list_sort(arr):
     return arr
 
 print(nested_list_sort([[3, 9, 16, 32], [7, 9, 85], [6, 4, 9]]))  #[[6, 4, 9], [3, 9, 16, 32], [7, 9, 85]]
+
+#------------------------------------------------
+def nested_list_sort(arr):
+    arr.sort(key = lambda l: l[2])
+    return arr
+
+#------------------------------------------------
+def nested_list_sort(arr):
+    return(sorted(arr, key = lambda i: i[2]))
