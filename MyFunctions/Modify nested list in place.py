@@ -19,6 +19,10 @@ for row in arr:
         else:
             row[index] = 1
 
-        
+#------------------------------------------
+
+#option 3
+arr = [[0 if x > 0 else 1 for x in row] for row in arr]        
+
 
 print(arr)
