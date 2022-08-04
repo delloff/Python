@@ -18,13 +18,7 @@ for row in arr:
             row[index] = 0
         else:
             row[index] = 1
- 
-#-------------------------------------------
 
-# option 3
-for row in arr:
-    row = list(map(lambda val: 1 - val, row))
-
-
+        
 
 print(arr)
