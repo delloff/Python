@@ -5,7 +5,7 @@ arr =  [[1,1,0],
         [0,0,0]]
 
 # option 1
-for row in A:
+for row in arr:
     for index, val in enumerate(row):
         row[index] = 0 if val > 0 else 1
 
